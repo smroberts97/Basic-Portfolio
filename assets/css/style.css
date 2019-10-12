@@ -1,5 +1,5 @@
 body {
-    background-color: #cccccc;
+    background-image: url("/Users/shannonroberts/Documents/Basic-Portfolio/Basic-Portfolio/assets/images/seigaiha.png");
     font-family: Arial, Helvetica, sans-serif;
     flex-grow: 1;
     display: block;
@@ -55,10 +55,10 @@ body {
       text-decoration: none;
     }
     
-  li a:hover {
-      background-color: #111111;
-      width: auto;
-      height: auto;
+li a:hover {
+    background-color: #868383;
+    width: 30px;
+    height: 2px;
     }
 
   #name {
@@ -110,7 +110,7 @@ body {
   }
 
   #bio {
-    padding-left: 50px;
+    padding-left: 40px;
     padding-bottom: 15px;
   }
 
@@ -143,23 +143,21 @@ body {
   
   h2 {
     color: teal;
-    text-align: center;
-    width: 320px;
-    padding: 10px;
-    border: 5px solid gray;
+    text-align: left;
+    width: 300px;
+    padding: 5px;
     display: block;
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-weight: bold;
   }
 
   .me {
     padding-left: 50px;
-    padding-top: 10px;
-    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .containerPort {
@@ -171,15 +169,30 @@ body {
   align-items: center;
 }
 
+.gallery {
+  width: 960px;
+  color: #777777;
+  font-size: 12px;
+  background: #ffffff;
+  align-items: center;
+  float: left;
+  width: 10%;
+  padding: 5px;
+}
+
 #image {
   float: left;
   padding-right: 10px;
+  padding-left: 50px;
 }
+
+
 
   
 footer {
   clear: both;
-  color: white;
+  color: #f0ecec;
+  font-size: 8px;
   width: 100%;
   height: 20px;
   background-color: #666666;
@@ -195,6 +208,9 @@ footer {
 
 p {
   width: 95%;
+  color: #777777;
+  font-size: 13px;
+  line-height: 18.25px;
   display: block;
   float: absolute;
   margin-block-start: 1em;
